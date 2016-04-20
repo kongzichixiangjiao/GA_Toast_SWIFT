@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFC16831CC7B886000B0E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16821CC7B886000B0E8D /* AppDelegate.swift */; };
+		DCFC16851CC7B886000B0E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16841CC7B886000B0E8D /* ViewController.swift */; };
+		DCFC16881CC7B886000B0E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFC16861CC7B886000B0E8D /* Main.storyboard */; };
+		DCFC168A1CC7B886000B0E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFC16891CC7B886000B0E8D /* Assets.xcassets */; };
+		DCFC168D1CC7B886000B0E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFC168B1CC7B886000B0E8D /* LaunchScreen.storyboard */; };
+		DCFC16981CC7B886000B0E8D /* GA_Toast_SWIFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16971CC7B886000B0E8D /* GA_Toast_SWIFTTests.swift */; };
+		DCFC16A31CC7B886000B0E8D /* GA_Toast_SWIFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16A21CC7B886000B0E8D /* GA_Toast_SWIFTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFC16941CC7B886000B0E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFC16771CC7B886000B0E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFC167E1CC7B886000B0E8D;
+			remoteInfo = GA_Toast_SWIFT;
+		};
+		DCFC169F1CC7B886000B0E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFC16771CC7B886000B0E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFC167E1CC7B886000B0E8D;
+			remoteInfo = GA_Toast_SWIFT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCFC167F1CC7B886000B0E8D /* GA_Toast_SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Toast_SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC16821CC7B886000B0E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCFC16841CC7B886000B0E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCFC16871CC7B886000B0E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCFC16891CC7B886000B0E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFC168C1CC7B886000B0E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCFC168E1CC7B886000B0E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFC16931CC7B886000B0E8D /* GA_Toast_SWIFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Toast_SWIFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC16971CC7B886000B0E8D /* GA_Toast_SWIFTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Toast_SWIFTTests.swift; sourceTree = "<group>"; };
+		DCFC16991CC7B886000B0E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFC169E1CC7B886000B0E8D /* GA_Toast_SWIFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Toast_SWIFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC16A21CC7B886000B0E8D /* GA_Toast_SWIFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Toast_SWIFTUITests.swift; sourceTree = "<group>"; };
+		DCFC16A41CC7B886000B0E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFC167C1CC7B886000B0E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC16901CC7B886000B0E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC169B1CC7B886000B0E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFC16761CC7B886000B0E8D = {
+			isa = PBXGroup;
+			children = (
+				DCFC16811CC7B886000B0E8D /* GA_Toast_SWIFT */,
+				DCFC16961CC7B886000B0E8D /* GA_Toast_SWIFTTests */,
+				DCFC16A11CC7B886000B0E8D /* GA_Toast_SWIFTUITests */,
+				DCFC16801CC7B886000B0E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFC16801CC7B886000B0E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC167F1CC7B886000B0E8D /* GA_Toast_SWIFT.app */,
+				DCFC16931CC7B886000B0E8D /* GA_Toast_SWIFTTests.xctest */,
+				DCFC169E1CC7B886000B0E8D /* GA_Toast_SWIFTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFC16811CC7B886000B0E8D /* GA_Toast_SWIFT */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC16821CC7B886000B0E8D /* AppDelegate.swift */,
+				DCFC16841CC7B886000B0E8D /* ViewController.swift */,
+				DCFC16861CC7B886000B0E8D /* Main.storyboard */,
+				DCFC16891CC7B886000B0E8D /* Assets.xcassets */,
+				DCFC168B1CC7B886000B0E8D /* LaunchScreen.storyboard */,
+				DCFC168E1CC7B886000B0E8D /* Info.plist */,
+			);
+			path = GA_Toast_SWIFT;
+			sourceTree = "<group>";
+		};
+		DCFC16961CC7B886000B0E8D /* GA_Toast_SWIFTTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC16971CC7B886000B0E8D /* GA_Toast_SWIFTTests.swift */,
+				DCFC16991CC7B886000B0E8D /* Info.plist */,
+			);
+			path = GA_Toast_SWIFTTests;
+			sourceTree = "<group>";
+		};
+		DCFC16A11CC7B886000B0E8D /* GA_Toast_SWIFTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC16A21CC7B886000B0E8D /* GA_Toast_SWIFTUITests.swift */,
+				DCFC16A41CC7B886000B0E8D /* Info.plist */,
+			);
+			path = GA_Toast_SWIFTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFC167E1CC7B886000B0E8D /* GA_Toast_SWIFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC16A71CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFT" */;
+			buildPhases = (
+				DCFC167B1CC7B886000B0E8D /* Sources */,
+				DCFC167C1CC7B886000B0E8D /* Frameworks */,
+				DCFC167D1CC7B886000B0E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GA_Toast_SWIFT;
+			productName = GA_Toast_SWIFT;
+			productReference = DCFC167F1CC7B886000B0E8D /* GA_Toast_SWIFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCFC16921CC7B886000B0E8D /* GA_Toast_SWIFTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC16AA1CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFTTests" */;
+			buildPhases = (
+				DCFC168F1CC7B886000B0E8D /* Sources */,
+				DCFC16901CC7B886000B0E8D /* Frameworks */,
+				DCFC16911CC7B886000B0E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFC16951CC7B886000B0E8D /* PBXTargetDependency */,
+			);
+			name = GA_Toast_SWIFTTests;
+			productName = GA_Toast_SWIFTTests;
+			productReference = DCFC16931CC7B886000B0E8D /* GA_Toast_SWIFTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCFC169D1CC7B886000B0E8D /* GA_Toast_SWIFTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC16AD1CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFTUITests" */;
+			buildPhases = (
+				DCFC169A1CC7B886000B0E8D /* Sources */,
+				DCFC169B1CC7B886000B0E8D /* Frameworks */,
+				DCFC169C1CC7B886000B0E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFC16A01CC7B886000B0E8D /* PBXTargetDependency */,
+			);
+			name = GA_Toast_SWIFTUITests;
+			productName = GA_Toast_SWIFTUITests;
+			productReference = DCFC169E1CC7B886000B0E8D /* GA_Toast_SWIFTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFC16771CC7B886000B0E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = houjianan;
+				TargetAttributes = {
+					DCFC167E1CC7B886000B0E8D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DCFC16921CC7B886000B0E8D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCFC167E1CC7B886000B0E8D;
+					};
+					DCFC169D1CC7B886000B0E8D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DCFC167E1CC7B886000B0E8D;
+					};
+				};
+			};
+			buildConfigurationList = DCFC167A1CC7B886000B0E8D /* Build configuration list for PBXProject "GA_Toast_SWIFT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFC16761CC7B886000B0E8D;
+			productRefGroup = DCFC16801CC7B886000B0E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFC167E1CC7B886000B0E8D /* GA_Toast_SWIFT */,
+				DCFC16921CC7B886000B0E8D /* GA_Toast_SWIFTTests */,
+				DCFC169D1CC7B886000B0E8D /* GA_Toast_SWIFTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFC167D1CC7B886000B0E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC168D1CC7B886000B0E8D /* LaunchScreen.storyboard in Resources */,
+				DCFC168A1CC7B886000B0E8D /* Assets.xcassets in Resources */,
+				DCFC16881CC7B886000B0E8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC16911CC7B886000B0E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC169C1CC7B886000B0E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFC167B1CC7B886000B0E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC16851CC7B886000B0E8D /* ViewController.swift in Sources */,
+				DCFC16831CC7B886000B0E8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC168F1CC7B886000B0E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC16981CC7B886000B0E8D /* GA_Toast_SWIFTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC169A1CC7B886000B0E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC16A31CC7B886000B0E8D /* GA_Toast_SWIFTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFC16951CC7B886000B0E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFC167E1CC7B886000B0E8D /* GA_Toast_SWIFT */;
+			targetProxy = DCFC16941CC7B886000B0E8D /* PBXContainerItemProxy */;
+		};
+		DCFC16A01CC7B886000B0E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFC167E1CC7B886000B0E8D /* GA_Toast_SWIFT */;
+			targetProxy = DCFC169F1CC7B886000B0E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCFC16861CC7B886000B0E8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFC16871CC7B886000B0E8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCFC168B1CC7B886000B0E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFC168C1CC7B886000B0E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFC16A51CC7B886000B0E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFC16A61CC7B886000B0E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFC16A81CC7B886000B0E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_Toast_SWIFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCFC16A91CC7B886000B0E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_Toast_SWIFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCFC16AB1CC7B886000B0E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_Toast_SWIFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_Toast_SWIFT.app/GA_Toast_SWIFT";
+			};
+			name = Debug;
+		};
+		DCFC16AC1CC7B886000B0E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_Toast_SWIFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_Toast_SWIFT.app/GA_Toast_SWIFT";
+			};
+			name = Release;
+		};
+		DCFC16AE1CC7B886000B0E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_Toast_SWIFTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_Toast_SWIFT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCFC16AF1CC7B886000B0E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_Toast_SWIFTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_Toast_SWIFT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFC167A1CC7B886000B0E8D /* Build configuration list for PBXProject "GA_Toast_SWIFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC16A51CC7B886000B0E8D /* Debug */,
+				DCFC16A61CC7B886000B0E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFC16A71CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC16A81CC7B886000B0E8D /* Debug */,
+				DCFC16A91CC7B886000B0E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCFC16AA1CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC16AB1CC7B886000B0E8D /* Debug */,
+				DCFC16AC1CC7B886000B0E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCFC16AD1CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC16AE1CC7B886000B0E8D /* Debug */,
+				DCFC16AF1CC7B886000B0E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFC16771CC7B886000B0E8D /* Project object */;
+}
