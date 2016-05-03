@@ -18,14 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LA7-Qo-duu" customClass="GA_WarnButton" customModule="GA_Toast_SWIFT" customModuleProvider="target">
-                                <rect key="frame" x="500" y="500" width="100" height="100"/>
+                                <rect key="frame" x="400" y="500" width="200" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="7OH-ff-L4c"/>
+                                    <constraint firstAttribute="width" constant="200" id="7OH-ff-L4c"/>
                                     <constraint firstAttribute="height" constant="100" id="vTe-GB-J3U"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="warnColor">
                                         <color key="value" red="0.1176470588" green="0.4549019608" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isLeft" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isWarn" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="17"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
