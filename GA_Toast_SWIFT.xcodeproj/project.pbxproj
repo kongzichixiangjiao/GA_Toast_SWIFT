@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC183B4F1CC8DB5500144EFA /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC183B4E1CC8DB5500144EFA /* 8.jpg */; };
+		DCA0EE041CC8653900EA0089 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA0EE031CC8653900EA0089 /* UIView+Toast.m */; };
+		DCD55D0E1CD85E6000752AED /* GA_WarnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD55D0D1CD85E6000752AED /* GA_WarnButton.swift */; };
+		DCD55D101CD860E600752AED /* 设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD55D0F1CD860E600752AED /* 设置@2x.png */; };
+		DCD55D121CD8902000752AED /* 确定（未点击）.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD55D111CD8902000752AED /* 确定（未点击）.png */; };
 		DCFC16831CC7B886000B0E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16821CC7B886000B0E8D /* AppDelegate.swift */; };
 		DCFC16851CC7B886000B0E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16841CC7B886000B0E8D /* ViewController.swift */; };
 		DCFC16881CC7B886000B0E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFC16861CC7B886000B0E8D /* Main.storyboard */; };
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A28FE6EEA9E8FF1034956B27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC183B4E1CC8DB5500144EFA /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		DCA0EE021CC8653900EA0089 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		DCA0EE031CC8653900EA0089 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		DCD55D0D1CD85E6000752AED /* GA_WarnButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_WarnButton.swift; sourceTree = "<group>"; };
+		DCD55D0F1CD860E600752AED /* 设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@2x.png"; sourceTree = "<group>"; };
+		DCD55D111CD8902000752AED /* 确定（未点击）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定（未点击）.png"; sourceTree = "<group>"; };
 		DCFC167F1CC7B886000B0E8D /* GA_Toast_SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Toast_SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFC16821CC7B886000B0E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFC16841CC7B886000B0E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,7 @@
 		DCFC169E1CC7B886000B0E8D /* GA_Toast_SWIFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Toast_SWIFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFC16A21CC7B886000B0E8D /* GA_Toast_SWIFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Toast_SWIFTUITests.swift; sourceTree = "<group>"; };
 		DCFC16A41CC7B886000B0E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFC16B01CC7BB48000B0E8D /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A310E4B5D66E3A8B0CD04B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28FE6EEA9E8FF1034956B27 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCFC16761CC7B886000B0E8D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,7 @@
 				DCFC16961CC7B886000B0E8D /* GA_Toast_SWIFTTests */,
 				DCFC16A11CC7B886000B0E8D /* GA_Toast_SWIFTUITests */,
 				DCFC16801CC7B886000B0E8D /* Products */,
+				5A310E4B5D66E3A8B0CD04B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +121,13 @@
 			children = (
 				DCFC16821CC7B886000B0E8D /* AppDelegate.swift */,
 				DCFC16841CC7B886000B0E8D /* ViewController.swift */,
+				DCD55D0D1CD85E6000752AED /* GA_WarnButton.swift */,
+				DCD55D111CD8902000752AED /* 确定（未点击）.png */,
+				DCD55D0F1CD860E600752AED /* 设置@2x.png */,
+				DCFC16B01CC7BB48000B0E8D /* Header.h */,
+				DC183B4E1CC8DB5500144EFA /* 8.jpg */,
+				DCA0EE021CC8653900EA0089 /* UIView+Toast.h */,
+				DCA0EE031CC8653900EA0089 /* UIView+Toast.m */,
 				DCFC16861CC7B886000B0E8D /* Main.storyboard */,
 				DCFC16891CC7B886000B0E8D /* Assets.xcassets */,
 				DCFC168B1CC7B886000B0E8D /* LaunchScreen.storyboard */,
@@ -229,7 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD55D101CD860E600752AED /* 设置@2x.png in Resources */,
+				DC183B4F1CC8DB5500144EFA /* 8.jpg in Resources */,
 				DCFC168D1CC7B886000B0E8D /* LaunchScreen.storyboard in Resources */,
+				DCD55D121CD8902000752AED /* 确定（未点击）.png in Resources */,
 				DCFC168A1CC7B886000B0E8D /* Assets.xcassets in Resources */,
 				DCFC16881CC7B886000B0E8D /* Main.storyboard in Resources */,
 			);
@@ -256,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA0EE041CC8653900EA0089 /* UIView+Toast.m in Sources */,
+				DCD55D0E1CD85E6000752AED /* GA_WarnButton.swift in Sources */,
 				DCFC16851CC7B886000B0E8D /* ViewController.swift in Sources */,
 				DCFC16831CC7B886000B0E8D /* AppDelegate.swift in Sources */,
 			);
@@ -401,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/houjianan/Desktop/GA_Toast_SWIFT/GA_Toast_SWIFT/Header.h;
 			};
 			name = Debug;
 		};
@@ -412,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Toast-SWIFT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/houjianan/Desktop/GA_Toast_SWIFT/GA_Toast_SWIFT/Header.h;
 			};
 			name = Release;
 		};
@@ -482,6 +518,7 @@
 				DCFC16A91CC7B886000B0E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCFC16AA1CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFTTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +527,7 @@
 				DCFC16AC1CC7B886000B0E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCFC16AD1CC7B886000B0E8D /* Build configuration list for PBXNativeTarget "GA_Toast_SWIFTUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +536,7 @@
 				DCFC16AF1CC7B886000B0E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
