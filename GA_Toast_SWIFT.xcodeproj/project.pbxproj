@@ -13,6 +13,11 @@
 		DCD55D101CD860E600752AED /* 设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD55D0F1CD860E600752AED /* 设置@2x.png */; };
 		DCD55D121CD8902000752AED /* 确定（未点击）.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD55D111CD8902000752AED /* 确定（未点击）.png */; };
 		DCD55D161CD8A12200752AED /* 消息.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD55D151CD8A12200752AED /* 消息.png */; };
+		DCDE45021CD99304003217F7 /* 提交成功提醒.png in Resources */ = {isa = PBXBuildFile; fileRef = DCDE45001CD99304003217F7 /* 提交成功提醒.png */; };
+		DCDE45031CD99304003217F7 /* 提交失败提醒.png in Resources */ = {isa = PBXBuildFile; fileRef = DCDE45011CD99304003217F7 /* 提交失败提醒.png */; };
+		DCDE45051CD9931B003217F7 /* 提交提醒底纹.png in Resources */ = {isa = PBXBuildFile; fileRef = DCDE45041CD9931B003217F7 /* 提交提醒底纹.png */; };
+		DCDE45071CD99352003217F7 /* GA_SubmitAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE45061CD99352003217F7 /* GA_SubmitAlertView.swift */; };
+		DCDE45091CD9950E003217F7 /* GA_WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE45081CD9950E003217F7 /* GA_WaitingView.swift */; };
 		DCFC16831CC7B886000B0E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16821CC7B886000B0E8D /* AppDelegate.swift */; };
 		DCFC16851CC7B886000B0E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC16841CC7B886000B0E8D /* ViewController.swift */; };
 		DCFC16881CC7B886000B0E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFC16861CC7B886000B0E8D /* Main.storyboard */; };
@@ -48,6 +53,11 @@
 		DCD55D0F1CD860E600752AED /* 设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置@2x.png"; sourceTree = "<group>"; };
 		DCD55D111CD8902000752AED /* 确定（未点击）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定（未点击）.png"; sourceTree = "<group>"; };
 		DCD55D151CD8A12200752AED /* 消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息.png"; sourceTree = "<group>"; };
+		DCDE45001CD99304003217F7 /* 提交成功提醒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提交成功提醒.png"; sourceTree = "<group>"; };
+		DCDE45011CD99304003217F7 /* 提交失败提醒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提交失败提醒.png"; sourceTree = "<group>"; };
+		DCDE45041CD9931B003217F7 /* 提交提醒底纹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提交提醒底纹.png"; sourceTree = "<group>"; };
+		DCDE45061CD99352003217F7 /* GA_SubmitAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_SubmitAlertView.swift; sourceTree = "<group>"; };
+		DCDE45081CD9950E003217F7 /* GA_WaitingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_WaitingView.swift; sourceTree = "<group>"; };
 		DCFC167F1CC7B886000B0E8D /* GA_Toast_SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Toast_SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFC16821CC7B886000B0E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFC16841CC7B886000B0E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,9 +134,14 @@
 				DCFC16821CC7B886000B0E8D /* AppDelegate.swift */,
 				DCFC16841CC7B886000B0E8D /* ViewController.swift */,
 				DCD55D0D1CD85E6000752AED /* GA_WarnButton.swift */,
+				DCDE45061CD99352003217F7 /* GA_SubmitAlertView.swift */,
+				DCDE45081CD9950E003217F7 /* GA_WaitingView.swift */,
 				DCD55D111CD8902000752AED /* 确定（未点击）.png */,
 				DCD55D0F1CD860E600752AED /* 设置@2x.png */,
 				DCD55D151CD8A12200752AED /* 消息.png */,
+				DCDE45001CD99304003217F7 /* 提交成功提醒.png */,
+				DCDE45011CD99304003217F7 /* 提交失败提醒.png */,
+				DCDE45041CD9931B003217F7 /* 提交提醒底纹.png */,
 				DCFC16B01CC7BB48000B0E8D /* Header.h */,
 				DC183B4E1CC8DB5500144EFA /* 8.jpg */,
 				DCA0EE021CC8653900EA0089 /* UIView+Toast.h */,
@@ -263,11 +278,14 @@
 			files = (
 				DCD55D161CD8A12200752AED /* 消息.png in Resources */,
 				DCD55D101CD860E600752AED /* 设置@2x.png in Resources */,
+				DCDE45021CD99304003217F7 /* 提交成功提醒.png in Resources */,
 				DC183B4F1CC8DB5500144EFA /* 8.jpg in Resources */,
 				DCFC168D1CC7B886000B0E8D /* LaunchScreen.storyboard in Resources */,
+				DCDE45051CD9931B003217F7 /* 提交提醒底纹.png in Resources */,
 				DCD55D121CD8902000752AED /* 确定（未点击）.png in Resources */,
 				DCFC168A1CC7B886000B0E8D /* Assets.xcassets in Resources */,
 				DCFC16881CC7B886000B0E8D /* Main.storyboard in Resources */,
+				DCDE45031CD99304003217F7 /* 提交失败提醒.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDE45071CD99352003217F7 /* GA_SubmitAlertView.swift in Sources */,
 				DCA0EE041CC8653900EA0089 /* UIView+Toast.m in Sources */,
 				DCD55D0E1CD85E6000752AED /* GA_WarnButton.swift in Sources */,
 				DCFC16851CC7B886000B0E8D /* ViewController.swift in Sources */,
+				DCDE45091CD9950E003217F7 /* GA_WaitingView.swift in Sources */,
 				DCFC16831CC7B886000B0E8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

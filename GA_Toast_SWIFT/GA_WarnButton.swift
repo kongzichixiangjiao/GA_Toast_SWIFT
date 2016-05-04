@@ -58,12 +58,7 @@ class GA_WarnButton: UIButton {
         /**
         *  画图片
         */
-        CGContextTranslateCTM(context, 0, rect.height)
-        CGContextScaleCTM(context, 1, -1)
-//        CGContextSetFillColorWithColor(context, imageColor.CGColor)
-//        CGContextFillRect(context, iRect)
-//        CGContextSetBlendMode(context, CGBlendMode.DestinationIn)
-        CGContextDrawImage(context, iRect, image.CGImage)
+        
     }
     
 }
