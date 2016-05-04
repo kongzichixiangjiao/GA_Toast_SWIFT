@@ -15,6 +15,12 @@ s.hide()
 
 */
 
+/**
+
+let _ = GA_SubmitAlertView(subView: self.view, submitType: .succeed)
+
+*/
+
 import UIKit
 
 enum SubmitType {
@@ -33,7 +39,7 @@ class GA_SubmitAlertView: UIView {
     var submitType: SubmitType = .succeed
     func show(frame: CGRect, subView: UIView) {
         subView.addSubview(self)
-        performSelector("hide", withObject: self, afterDelay: 1)
+        performSelector("hide", withObject: self, afterDelay: 2)
     }
     
     func hide() {

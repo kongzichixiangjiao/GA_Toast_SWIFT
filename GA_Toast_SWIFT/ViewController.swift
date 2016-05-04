@@ -14,15 +14,14 @@ class ViewController: UIViewController {
     @IBAction func action(sender: GA_WarnButton) {
         sender.isWarn = !sender.isWarn
         sender.setNeedsDisplay()
-        let s = self.view.viewWithTag(10) as! GA_SubmitAlertView
-        s.hide()
+        let _ = GA_SubmitAlertView(subView: self.view, submitType: .succeed)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let s = GA_SubmitAlertView(subView: self.view, submitType: .succeed)
-        s.tag = 10
+        
+        
         
         //        self.view.makeToast("请求数据失败")
         //        self.view.makeToast("请求数据失败", duration: 122, position: CSToastPositionCenter)
